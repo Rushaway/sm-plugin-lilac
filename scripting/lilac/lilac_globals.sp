@@ -51,24 +51,23 @@
 #define CVAR_AIMBOT_AUTOSHOOT      19
 #define CVAR_AIMLOCK               20
 #define CVAR_AIMLOCK_LIGHT         21
-// #define CVAR_ANTI_DUCK_DELAY       22 /* Deprecated - Unsupported game */
-#define CVAR_NOISEMAKER_SPAM       23
-#define CVAR_BACKTRACK_PATCH       24
-#define CVAR_BACKTRACK_TOLERANCE   25
-#define CVAR_MAX_PING              26
-#define CVAR_MAX_PING_SPEC         27
-#define CVAR_MAX_LERP              28
-#define CVAR_MACRO                 29
-#define CVAR_MACRO_WARNING         30
-#define CVAR_MACRO_DEAL_METHOD     31
-#define CVAR_MACRO_MODE            32
-#define CVAR_FILTER_NAME           33
-#define CVAR_FILTER_CHAT           34
-#define CVAR_LOSS_FIX              35
-#define CVAR_AUTO_UPDATE           36
-#define CVAR_SOURCEIRC             37
-#define CVAR_DATABASE              38
-#define CVAR_MAX                   39
+#define CVAR_NOISEMAKER_SPAM       22
+#define CVAR_BACKTRACK_PATCH       23
+#define CVAR_BACKTRACK_TOLERANCE   24
+#define CVAR_MAX_PING              25
+#define CVAR_MAX_PING_SPEC         26
+#define CVAR_MAX_LERP              27
+#define CVAR_MACRO                 28
+#define CVAR_MACRO_WARNING         29
+#define CVAR_MACRO_DEAL_METHOD     30
+#define CVAR_MACRO_MODE            31
+#define CVAR_FILTER_NAME           32
+#define CVAR_FILTER_CHAT           33
+#define CVAR_LOSS_FIX              34
+#define CVAR_AUTO_UPDATE           35
+#define CVAR_SOURCEIRC             36
+#define CVAR_DATABASE              37
+#define CVAR_MAX                   38
 
 #define BHOP_INDEX_MIN     0
 #define BHOP_INDEX_JUMP    1
@@ -120,7 +119,7 @@
 #define PLUGIN_NAME      "[Lilac] Little Anti-Cheat"
 #define PLUGIN_AUTHOR    "J_Tanzanite"
 #define PLUGIN_DESC      "An opensource Anti-Cheat"
-#define PLUGIN_VERSION   "1.7.7"
+#define PLUGIN_VERSION   "1.7.8"
 #define PLUGIN_URL       "https://github.com/J-Tanzanite/Little-Anti-Cheat"
 
 /* Convars. */
