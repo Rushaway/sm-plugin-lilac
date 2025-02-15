@@ -1,6 +1,6 @@
 project:
   sourceknight: 0.2
-  name: Lilac
+  name: lilac
   dependencies:
     - name: sourcemod
       type: tar
@@ -13,4 +13,4 @@ project:
   root: /
   output: /addons/sourcemod/plugins
   targets:
-    - Lilac
+    - lilac
