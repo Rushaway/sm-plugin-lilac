@@ -1,6 +1,6 @@
 project:
   sourceknight: 0.2
-  name: VScript_ze_grey_world
+  name: Lilac
   dependencies:
     - name: sourcemod
       type: tar
@@ -10,21 +10,7 @@ project:
       - source: /addons
         dest: /addons
 
-    - name: vscripts
-      type: git
-      repo: https://github.com/srcdslab/sm-plugin-VScript
-      unpack:
-      - source: /addons/sourcemod/scripting/include
-        dest: /addons/sourcemod/scripting/include
-
-    - name: eventqueue
-      type: git
-      repo: https://github.com/srcdslab/sm-ext-eventqueue
-      unpack:
-      - source: /include
-        dest: /addons/sourcemod/scripting/include
-
   root: /
   output: /addons/sourcemod/plugins
   targets:
-    - VScript_ze_grey_world
+    - Lilac
