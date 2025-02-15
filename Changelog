@@ -1,3 +1,20 @@
+1.7.8
+- Reorder and renumber CVAR definitions (was leading to 1.7.7 not correctly loading)
+- Remove deprecated ANTI_DUCK_DELAY comment
+
+1.7.7
+- Drop CS:GO support
+
+1.7.6
+- fix(aimbot): prevent grenades false flag 
+
+1.7.5
+- Added include file with Forwards
+- Create a native for get the detail of the detected cheat.
+- Add docs to include
+- Moved cheats definition to include
+- Fix SM 1.11 syntax for `IRC_MsgFlaggedChannels`
+
 1.7.4
 - Removed the need to download other third party includes (SB, SB++, MA and Updater).
 - Removed Angle checks in L4D1&2 (Fix coming in 1.8).
